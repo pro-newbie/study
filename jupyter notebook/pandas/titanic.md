@@ -139,8 +139,9 @@ Data columns (total 15 columns):
 `titanic.groupby('family_size').count()`
 
 |-|survived|pclass|sex|age|sibsp|parch|fare|embarked|class|who|adult_male|deck|embark_town|alive|alone|age_group|	fare_bracket|
-family_size																	
-0	537	537	537	404	537	537	537	535	537	537	537	93	535	537	537	404	520
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|family_size|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|																	
+|0|	537|	537|	537|	404|	537|	537|	537|	535	537	537	537	93	535	537	537	404	520
 1	161	161	161	139	161	161	161	161	161	161	161	66	161	161	161	139	160
 2	102	102	102	93	102	102	102	102	102	102	102	29	102	102	102	93	102
 3	29	29	29	27	29	29	29	29	29	29	29	9	29	29	29	27	29
